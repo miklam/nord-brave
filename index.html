@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+  <title>New Tab</title>
+  <meta charset="utf-8"/>
+
+  <link rel="shortcut icon" href="./assets/img/fav.png"/>
+  <link type="text/css" rel="stylesheet" href="./assets/css/style.css" media="screen, projection"/>
+  <script src="./assets/js/iconify.js" type="text/javascript"></script>
+  <script src="./assets/js/jquery.js" type="text/javascript"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+  <main id="container" class="fade">
+    <section id="header">
+      <h1 id="header-time">00:00</h1>
+      <h2 id="header-date">Date</h2>
+      <div id="header-quote">Thinking</div>
+      <!--<div class="randompic"> </div>-->
+      <div id="search" class="searchbar">
+        <input type="text" class="searchbox" name="q" title="Search DuckDuckGo"
+        placeholder="Search..." id="main-search" spellcheck="false"
+        autocomplete="off" size="40" maxlength="255" />
+        <ul class="search-engines"></ul>
+      </div>
+    </section>
+    <section id="apps">
+      <!--<h3>> Frequent Websites</h3>-->
+      <div id="apps-loop">
+        <a id="link" class="apps-item" href="https://www.youtube.com/">
+          <div class="apps-icon">
+            <span class="iconify icon" data-icon="mdi-youtube"></span>
+          </div>
+          <div class="apps-text">
+            <span>YouTube</span>
+            <span>youtube.com</span>
+          </div>
+        </a>
+        <a id="link" class="apps-item" href="https://www.nexusmods.com/skyrimspecialedition">
+          <div class="apps-icon">
+            <span class="iconify icon" data-icon="mdi-gamepad"></span>
+          </div>
+          <div class="apps-text">
+            <span>NexusMods Skyrim SE</span>
+            <span>nexusmods.com</span>
+          </div>
+        </a>
+        <a id="link" class="apps-item" href="https://www.reddit.com/r/skyrimmods/">
+          <div class="apps-icon">
+            <span class="iconify icon" data-icon="mdi-reddit"></span>
+          </div>
+          <div class="apps-text">
+            <span>Reddit</span>
+            <span>reddit.com</span>
+          </div>
+        </a>
+        <a id="link" class="apps-item" href="https://docs.google.com/forms/d/e/1FAIpQLScDIwflhyywW5NRX8fcO5MuL6PdhYij6plszakf9r3izljYUg/viewform">
+          <div class="apps-icon">
+            <span class="iconify icon" data-icon="mdi-google-spreadsheet"></span>
+          </div>
+          <div class="apps-text">
+            <span>Input</span>
+            <span>forms.google.com</span>
+          </div>
+        </a>
+      </div>
+    </section>
+    <section id="links">
+      <!--<h3>> Bookmarks</h3>-->
+      <div id="links-loop">
+        <div class="links-item">
+          <h4>Reddit</h4>
+          <a id="link" href="https://www.reddit.com/">frontpage</a>
+          <a id="link" href="https://www.reddit.com/r/elitedangerous">r/elitedangerous</a>
+          <a id="link" href="https://www.reddit.com/r/dragonage">r/dragonage</a>
+        </div>
+        <div class="links-item">
+          <h4>NexusMods</h4>
+          <a id="link" href="https://www.nexusmods.com/">Home</a>
+          <a id="link" href="https://www.nexusmods.com/skyrim">Skyrim</a>
+          <a id="link" href="https://www.nexusmods.com/dragonageinquisition">Dragon Age: Inquisition</a>
+        </div>
+      </div>
+    </section>
+    <section id="modal">
+      <div>
+        <header id="modal-header">
+          <h3>> Options</h3>
+          <a href="#" title="Close" class="modal-close">
+            <span class="iconify" data-icon="mdi-close"></span>
+          </a>
+        </header>
+        <!--<h4>Color themes</h4>
+        <div id="modal-theme">
+          <button data-theme="blackboard" class="theme-button theme-blackboard">Blackboard</button>
+          <button data-theme="hackers" class="theme-button theme-hackers">Hackers</button>
+          <button data-theme="nord" class="theme-button theme-nord">Nord</button>
+        </div>-->
+        <h4>Additional links and todo</h4>
+        <section id="providers">
+          <div class="modaloptions">
+            <a href="https://">Something</a>
+          </div>
+          <div class="credits">
+            All credits go  to: <a href="https://github.com/TB-96/">TB-96</a><br>
+            Icons by: <a href="https://materialdesignicons.com/">those lads</a><br>
+          </div>
+          <div style="clear: both;"></div>
+        </section>
+      </div>
+    </section>
+  </main>
+  <div id="modal_init">
+    <a class="btn" href="#modal">
+      <span class="iconify icon" data-icon="mdi-xbox-controller-menu"></span>
+    </a>
+  </div>
+  <script src="./assets/js/script.js" type="text/javascript"></script>
+</body>
+</html>
